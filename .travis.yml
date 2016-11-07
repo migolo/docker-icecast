@@ -2,4 +2,4 @@ install:
   - curl -sLo - http://j.mp/install-travis-docker | sh -xe
 
 script:
-  - ./run 'docker build -t moul/icecast . && docker run moul/icecast echo Build succeed'
+  - ./run 'docker build -t migolo/docker-icecast . && docker run migolo/docker-icecast echo Build succeed'
