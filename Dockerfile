@@ -3,7 +3,9 @@ FROM debian:jessie
 MAINTAINER Migolo migolo10@gmail.com
 
 ENV DEBIAN_FRONTEND noninteractive
-RUN apt-get -qq -y install wget
+RUN apt-get -qq -y update && \
+    apt-get -qq -y install wget && \
+    apt-get clean
 RUN echo deb http://download.opensuse.org/repositories/multimedia:/xiph/Debian_8.0/ ./ >>/etc/apt/sources.list.d/icecast.list
 RUN wget -qO - http://icecast.org/multimedia-obs.key | apt-key add -
 RUN apt-get -qq -y update && \
