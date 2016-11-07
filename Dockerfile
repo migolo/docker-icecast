@@ -4,7 +4,7 @@ MAINTAINER Migolo migolo10@gmail.com
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN echo deb http://download.opensuse.org/repositories/multimedia:/xiph/Debian_8.0/ ./ >>/etc/apt/sources.list.d/icecast.list
-RUN wget -qO - http://icecast.org/multimedia-obs.key | sudo apt-key add -
+RUN wget -qO - http://icecast.org/multimedia-obs.key | apt-key add -
 RUN apt-get -qq -y update && \
     apt-get -qq -y install icecast2 python-setuptools && \
     apt-get clean
