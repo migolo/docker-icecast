@@ -1,8 +1,8 @@
-# Icecast in Docker [![Build Status](https://travis-ci.org/moul/docker-icecast.svg?branch=master)](https://travis-ci.org/moul/docker-icecast)
+# Icecast in Docker [![Build Status](https://travis-ci.org/migolo/docker-icecast.svg?branch=master)](https://travis-ci.org/migolo/docker-icecast)
 
 Icecast2 Dockerfile
 
-[![](http://dockeri.co/image/moul/icecast)](https://index.docker.io/u/moul/icecast/)
+[![](http://dockeri.co/image/migolo/icecast)](https://index.docker.io/u/migolo/icecast/)
 
 ## Run
 
