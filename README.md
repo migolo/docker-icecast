@@ -2,7 +2,7 @@
 
 Icecast2 Dockerfile
 
-[![](http://dockeri.co/image/migolo/icecast)](https://index.docker.io/u/migolo/icecast/)
+[![](http://dockeri.co/image/migolo/docker-icecast)](https://index.docker.io/u/migolo/docker-icecast/)
 
 ## Run
 
